@@ -7,6 +7,8 @@ public class Animal {
 	private static String saySomething(String animal) {
 		if(animal.equals("cat")) {
 			return "meow";
+		} else if(animal.equals("dog")) {
+			return "woof";
 		} else {
 			return "????";
 		}
